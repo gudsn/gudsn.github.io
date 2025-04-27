@@ -1,6 +1,6 @@
 import { resizeAspectRatio, Axes } from '../util/util.js';
 import { Shader, readShaderFile } from '../util/shader.js';
-import { Octahedron } from '../hw06/regluarOctahedron.js';
+import { Octahedron } from '../hw06/regularOctahedron.js';
 import { Arcball } from '../util/arcball.js';
 import { loadTexture } from '../util/texture.js';
 const canvas = document.getElementById('glCanvas');
