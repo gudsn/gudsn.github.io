@@ -14,7 +14,7 @@ import { resizeAspectRatio, setupText, updateText} from '../util/util.js';
 import { Shader, readShaderFile } from '../util/shader.js';
 import { Cube } from '../util/cube.js';
 import { Arcball } from '../util/arcball.js';
-import { Cone } from '../hw07_2021147606/cone.js';
+import { Cone } from '../hw07/cone.js';
 
 const canvas = document.getElementById('glCanvas');
 const gl = canvas.getContext('webgl2');
