@@ -43,7 +43,7 @@ const cone = new Cone(gl, 32);
 const lamp = new Cube(gl);
 //const axes = new Axes(gl, 1.5); // create an Axes object with the length of axis 1.5
 
-const cameraPos = vec3.fromValues(0, 0, -3);
+const cameraPos = vec3.fromValues(0, 0, 3);
 const lightPos = vec3.fromValues(1.0, 0.7, 1.0);
 const lightSize = vec3.fromValues(0.1, 0.1, 0.1);
 
