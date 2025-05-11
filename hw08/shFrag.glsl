@@ -56,7 +56,7 @@ void main() {
     vec3 specular = light.specular * specStep * material.specular;
 
     vec3 result = ambient + diffuse + specular;
-    if (toonLevels == 0){
+    if (toonLevels == 1){
         result = ambient + diffuse;
     }
     FragColor = vec4(result, 1.0);
