@@ -288,23 +288,23 @@ function animate() {
 
     mercuryOrbit += merparam.ospeed;
     mercury.rotation.y += merparam.rspeed;
-    mercury.position.x = Math.sin(mercuryOrbit) * 30;
-    mercury.position.z = Math.cos(mercuryOrbit) * 30;
+    mercury.position.x = -Math.cos(mercuryOrbit) * 30;
+    mercury.position.z = -Math.sin(mercuryOrbit) * 30;
 
     venusOrbit += venusparam.ospeed;
     venus.rotation.y += venusparam.rspeed;
-    venus.position.x = Math.sin(venusOrbit) * 45;
-    venus.position.z = Math.cos(venusOrbit) * 45;
+    venus.position.x = -Math.cos(venusOrbit) * 45;
+    venus.position.z = -Math.sin(venusOrbit) * 45;
 
     earthOrbit += earthparam.ospeed;
     earth.rotation.y += earthparam.rspeed;
-    earth.position.x = Math.sin(earthOrbit) * 60;
-    earth.position.z = Math.cos(earthOrbit) * 60;
+    earth.position.x = -Math.cos(earthOrbit) * 60;
+    earth.position.z = -Math.sin(earthOrbit) * 60;
 
     marsOrbit += marsparam.ospeed;
     mars.rotation.y += marsparam.rspeed;
-    mars.position.x = Math.sin(marsOrbit) * 75;
-    mars.position.z = Math.cos(marsOrbit) * 75;
+    mars.position.x = -Math.cos(marsOrbit) * 75;
+    mars.position.z = -Math.sin(marsOrbit) * 75;
     
 
     // 모든 transformation 적용 후, renderer에 렌더링을 한번 해 줘야 함
